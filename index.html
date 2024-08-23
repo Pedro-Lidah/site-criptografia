@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <div class="corpo">
+        <div class="logo">
+            <img src="./assets/Vector.png"> 
+        </div>        
+                <div class="corpo__meio">
+                    <div class="digite"> 
+                        <textarea  class="texto__entrada" id="textoEntrada" placeholder="Digite seu texto" wrap="soft" rows="13" ></textarea>
+                    </div>
+                    <div class="resto">
+                        <div class="exclamacao"> 
+                            <img class="img__excl" src="./assets/exclamacao.png">
+                            <p class="aviso"> Apenas letras minúsculas e sem acento.</p>
+                        </div>
+
+                        <div class="botoes">   
+                            <button onclick="criptografar()" class="botoes__criptografar">Criptografar</button>
+                            <button onclick="descriptografar()" class="botoes__descriptografar">descriptografar</button>
+                        </div>
+                        
+
+                    </div>
+                </div> 
+                
+                <div class="corpo__output">
+                    <div class="saida">
+                        <textarea class="texto__saida" id="textoSaida" cols="20" rows="10" readonly></textarea>
+                    </div>
+                        <div class="output" id="output">
+                            <img src="./assets/imagemOutput.png" class="img">
+                            <h2 class="output__tex1">Nenhuma mensagem encontrada</h2>
+                            <p class="output__tex2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                        </div>
+                        <div class="copia">
+                            <button onclick="copiarTexto()" class="botoes__copiar">copiar</button>
+                        </div>
+                </div>        
+    </div>
+<footer class="rodape">
+    <p>Desenvolvido por Pedro-Lidah</p>
+ </footer>
+        <script src="app.js" ></script>   
+</body>
+</html>

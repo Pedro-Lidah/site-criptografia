@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* box-sizing: border-box; */
+    background-color: #F3F5FC;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; */
+}
+
+.logo {
+    margin: 0 2.5rem 15.625rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.corpo {
+    margin: 2.5rem;
+    display:flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.corpo__meio {
+    margin: 0 0 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.texto__entrada::placeholder {
+    color: #0A3871;
+}
+.digite {
+    display: flex;
+    margin-top: 128px;
+}
+.texto__entrada { 
+    color: #0A3871;
+    display: flex;
+    width: 100%;
+    max-width: 42.5rem;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    background-color: #F3F5FC;
+    flex-grow: 1;
+    font-family: "Inter", sans-serif;
+    
+}
+.texto__saida {
+    padding: 15px;
+    z-index: 1;
+    position: relative;
+    box-sizing: border-box;
+    border: none;
+    height: flex;
+    outline: none;
+    resize: none;
+    width: 100%;
+    max-width: 25rem;
+    height: 59rem;
+    display: flex;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #495057;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    flex-grow: 1;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.output {
+    z-index: 2;
+    width: 16rem;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    box-sizing: border-box;
+    flex-direction: column;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.output__tex1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #343a40;
+    line-height: 1.8rem;
+    font-family: "Inter", sans-serif;
+}
+
+.output__tex2 {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #495057;
+    font-family: "Inter", sans-serif;
+
+}
+
+.botoes {
+    padding: 0 0 4.5rem 0;
+    width: 100%;
+    max-width: 42.5rem;
+}
+
+.botoes__criptografar {
+    display: flex;
+    width: 20.5rem;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #0A3871;
+    border: solid #0A3871;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+
+}
+
+.botoes__descriptografar {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    background-color: #D8DFE8;
+    border: solid #0A3871;
+    width: 20.5rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+
+}
+
+.botoes__copiar {
+    z-index: 3;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    border: solid #0A3871;
+    width: 21rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+}
+
+.exclamacao {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0rem;
+    line-height: 1.125rem;
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #495057;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+}
+
+.resto{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.rodape {
+    padding: 1.5rem;
+    text-align: center;
+    color: #F3F5FC;
+    background-color: #0A3871;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+}
